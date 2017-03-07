@@ -26,7 +26,7 @@ import { ClNgMessageDirective } from './ngMessage.directive';
 `
 })
 export class ClNgMessagesComponent implements AfterContentInit {
-    /** Content for the error message given by <template error-message>. */
+    /** Content for the error message given by <template clNgMessage>. */
     @ContentChildren(ClNgMessageDirective)
     errorMessages: QueryList<ClNgMessageDirective>;
 

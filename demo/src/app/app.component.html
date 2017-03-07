@@ -1,0 +1,12 @@
+<form [formGroup]="formGroup">
+  <label for="phoneNumber">Phone Number</label>
+  <input type="text" id="phoneNumber" name="phoneNumber" formControlName="phoneNumber" required>
+  <cl-ng-messages [control]="formGroup.get('phoneNumber')">
+    <template clNgMessage="required">
+      This is required
+    </template>
+    <template clNgMessage="pattern">
+      the format of phone number is not correct
+    </template>
+  </cl-ng-messages>
+</form>

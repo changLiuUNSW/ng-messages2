@@ -1,10 +1,14 @@
-[![NPM Version](http://img.shields.io/npm/v/ng-messages2.svg?style=flat)](https://www.npmjs.org/package/ng-messages2) [![Build Status](https://travis-ci.org/changLiuUNSW/ng-messages2.svg?branch=master)](https://travis-ci.org/changLiuUNSW/ng-messages2)
+[![NPM Version](http://img.shields.io/npm/v/ng-messages2.svg?style=flat)](https://www.npmjs.org/package/ng-messages2)
 
 # ng-messages2 - Angular version of ng-message
 
-Angular version of [ng-message](https://docs.angularjs.org/api/ngMessages/directive/ngMessage).
+Angular (Angular 2+) version of [ng-message](https://docs.angularjs.org/api/ngMessages/directive/ngMessage).
 
 This libary is still in progress. Please check out our list of issues to see all the things we are implementing
+
+## Demo
+
+[See it in action] (https://changliuunsw.github.io/ng-messages2/)
 
 ## Installation
 

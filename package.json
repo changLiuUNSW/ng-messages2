@@ -1,6 +1,6 @@
 {
   "name": "ng-messages2",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Angular version of ng-message",
   "scripts": {
     "build": "ngc -p tsconfig.json",
