@@ -1,0 +1,56 @@
+{
+  "name": "ng-messages2",
+  "version": "0.1.0",
+  "description": "Angular version of ng-message",
+  "scripts": {
+    "build": "ngc -p tsconfig.json",
+    "lint": "tslint --type-check --project tsconfig.json src/**/*.ts",
+    "test": "tsc && karma start",
+    "prepublish": "tsc",
+    "tsc": "tsc",
+    "tslint": "tslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/changLiuUNSW/ng-messages2.git"
+  },
+  "author": {
+    "name": "Chang Liu",
+    "email": "3dslayer@gmail.com"
+  },
+  "homepage": "https://github.com/changLiuUNSW/ng-messages2",
+  "keywords": [
+    "angular",
+    "ng2",
+    "angular2",
+    "ng2-messages",
+    "ng-messages"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/changLiuUNSW/ng-messages2/issues"
+  },
+  "main": "./dist/index.js",
+  "dependencies": {
+    "@angular/core": "^2.4.0",
+    "@angular/common": "^2.4.0",
+    "@angular/forms": "^2.4.0"
+  },
+  "devDependencies": {
+    "@angular/compiler": "^2.4.0",
+    "@angular/compiler-cli": "^2.4.0",
+    "@angular/platform-browser": "^2.4.0",
+    "@angular/platform-server": "^2.4.0",
+    "codelyzer": "~2.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.7.6",
+    "tslint": "^4.4.2",
+    "typescript": "^2.0.0",
+    "@types/es6-shim": "^0.31.32",
+    "@types/jasmine": "^2.5.40",
+    "@types/selenium-webdriver": "^2.53.39"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
